@@ -1,0 +1,92 @@
+export const permissions = [
+  {
+    name: 'create_role',
+    description: 'This is only create role permission',
+    key: 'role',
+    action: 'create',
+  },
+  {
+    name: 'list_role',
+    description: 'This is only list role permission',
+    key: 'role',
+    action: 'list',
+  },
+  {
+    name: 'detail_role',
+    description: 'This is only detail role permission',
+    key: 'role',
+    action: 'detail',
+  },
+  {
+    name: 'update_role',
+    description: 'This is only update role permission',
+    key: 'role',
+    action: 'update',
+  },
+  {
+    name: 'delete_role',
+    description: 'This is only delete role permission',
+    key: 'role',
+    action: 'delete',
+  },
+  {
+    name: 'create_author',
+    description: 'This is only create author permission',
+    key: 'author',
+    action: 'create',
+  },
+  {
+    name: 'list_author',
+    description: 'This is only list author permission',
+    key: 'author',
+    action: 'list',
+  },
+  {
+    name: 'detail_author',
+    description: 'This is only detail author permission',
+    key: 'author',
+    action: 'detail',
+  },
+  {
+    name: 'update_author',
+    description: 'This is only update author permission',
+    key: 'author',
+    action: 'update',
+  },
+  {
+    name: 'delete_author',
+    description: 'This is only delete author permission',
+    key: 'author',
+    action: 'delete',
+  },
+  {
+    name: 'create_book',
+    description: 'This is only create book permission',
+    key: 'book',
+    action: 'create',
+  },
+  {
+    name: 'list_book',
+    description: 'This is only list book permission',
+    key: 'book',
+    action: 'list',
+  },
+  {
+    name: 'detail_book',
+    description: 'This is only detail book permission',
+    key: 'book',
+    action: 'detail',
+  },
+  {
+    name: 'update_book',
+    description: 'This is only update book permission',
+    key: 'book',
+    action: 'update',
+  },
+  {
+    name: 'delete_book',
+    description: 'This is only delete book permission',
+    key: 'book',
+    action: 'delete',
+  },
+];
